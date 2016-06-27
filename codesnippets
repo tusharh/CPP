@@ -1,0 +1,6 @@
+1) Swapping values 
+x = x ^ y;
+y = x ^ y;
+x = x ^ y;
+
+if x =  5 & y = 2,ouput would be x = 2 & y = 5 after above operation.
