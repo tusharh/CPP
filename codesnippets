@@ -126,3 +126,13 @@ QString CommonDataLocation = "";
   return success;
 }
 
+
+
+
+for(int i = 0;i<1000000;i++)
+{
+    QString file = "F:\\File-\\" + QString::number(i) + ".txt";
+    int fd = creat(file.toUtf8(),0 );
+    ftruncate64(fd,20);
+    close(fd);
+}
